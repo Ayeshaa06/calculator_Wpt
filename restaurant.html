@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Green Bites-Home</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #F5DE91;
+}
+form { display: flex;
+flex-direction: column;
+}
+form > input { width: 12rem; margin: .5rem; border: 2px; border-radius: 4px; 
+padding: 4px;
+background: rgb(213, 211, 211); text-align: center;
+}
+form > input[type="submit"] { width: 8rem !important;
+font-size: 16px; background-color:#F7AD45;
+}
+form > label {
+font-weight: bold; margin-left: .5rem;
+}
+h1 {
+color: #168700;
+text-align: center;
+margin-top: 50px;
+}
+nav {
+background-color: #BB3E00;
+color: #F5F5F5;
+padding: 10px;
+margin-top: 20px;
+}
+nav a {
+color: #F5F5F5;
+text-decoration: none;
+margin-right: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+h2 {
+color:#ff6f00;
+text-align: center;
+margin-top: 50px;
+}
+h3 {
+color:#ff6f00;
+text-align: center;
+margin-top: 50px;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+margin: 50px 0;
+padding: 20px;
+background-color: #FFF1D7;
+box-shadow: 0px 0px 10px #CCC;
+}
+footer {
+background-color: #BB3E00;
+color: #FFF;
+padding: 10px;
+margin-top: 20px;
+text-align: center;
+}
+
+/* External CSS */
+@import url("styles.css");
+</style>
+</head>
+<body>
+    <h1>Welcome to Green Bites !!</h1>
+    <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </nav>
+    <section>
+    <h2 style="text-align:center">We are the premier vegetarian restaurant that offers a wide range of delicious and healthy vegetarian dishes. We aim to provide our customers with a unique dining experience that is both satisfying and nourishing.</h2><br>
+    <P>Special Menu Items :</P>
+    <ul>
+    <li>Quinoa and Black Bean Burger: A delicious veggie burger made with quinoa, black beans, and a variety of spices. Served on a whole-grain bun with lettuce, tomato, and onion.</li>
+    <P></P>
+    <img src="https://inquiringchef.com/wp-content/uploads/2020/03/Black-Bean-and-Quinoa-Veggie-Burgers_square.jpg" alt="Takoyaki" width="210" height="210">
+    <P></P>
+    <li>Veggie Pad Thai: Our take on the classic Thai dish, made with rice noodles, tofu, vegetables, and a savory sauce.</li>
+    <P></P>
+    <img src="https://pinchofyum.com/wp-content/uploads/Vegetarian-Pad-Thai-Recipe.jpg" alt="Teriyaki Salmon" width="210" height="210">
+    <P></P>
+    <li>Cauliflower Steak: A hearty vegetarian dish featuring a thick slice of roasted cauliflower seasoned with garlic and herbs. Served with mashed sweet potatoes and sautéed greens.</li>
+    <P></P>
+    <img src="https://hips.hearstapps.com/hmg-prod/images/whm010120foodflash-001-a-1574876550.jpg" alt="Food" width="210" height="210">
+    <P></P>
+    <li>Lentil and Sweet Potato Shepherd's Pie: A vegetarian twist on the classic comfort food dish, made with lentils, sweet potatoes, and a variety of vegetables.</li>
+    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/12/Lentil-and-sweet-potato-cottage-pie-75d994c.jpg?quality=90&resize=556,505" alt="Food" width="210" height="210">
+    </ul>
+    <p>Make a reservation:</p>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br>
+    <label for="people">Number of people:</label>
+    <input type="number" min="1" id="people" name="people"><br>
+    <input type="submit" value="Submit">
+    </form>
+    <h3 style="text-align: center;">At Green Bites, we believe that healthy eating should be a pleasure, not a sacrifice. We strive to create dishes that are both delicious and nutritious, and we are committed to using sustainable, locally sourced ingredients whenever possible.</h3>
+    </section>
+    <footer>
+    <p>&copy; 2023 Green Bites. All rights reserved.</p>
+    </footer>
+    </body>
